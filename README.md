@@ -2,6 +2,8 @@
 
 Note: I'm busy as of writing this and this tutorial is not complete. Whatever state this file is in, **please remember to add a .gitignore** and hide `config.json` in it. `config.json` will contain your API keys for Discord! If this is comprimised, others may have access to your bot and how it responds with commands.
 
+Note from me in the future: This is an import from a Gist I made. I figured GitHub would be a better way for people to find this tutorial. Feel free to let me know if I missed anything!
+
 To register your soon-to-be bot with Discord, go to their [developer portal](https://discordapp.com/developers/applications/me) and create a new app. Give it a name at the very least. Click 'Create App.' On the next screen, click 'Create a Bot User.' Note the values `Client ID`, `Client Secret`, and `Token`.
 
 I recommend creating a bot testing server in Discord to test out your bot without disturbing others. Plus, you'll be guarenteed the permissions needed to add a bot to your server. Add your client ID to the URL `https://discordapp.com/oauth2/authorize?client_id=[CLIENT_ID]&permissions=0&scope=bot` where specified and go to the link. Sign into Discord and add your bot to the server you wish.
