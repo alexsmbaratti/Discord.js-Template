@@ -1,9 +1,9 @@
 # Tutorial for Discord.js (a.k.a. How to Make Your Own Discord Bot)
 
-**Note**
+**Note:**
 I'm busy as of writing this and this tutorial is not complete. Whatever state this file is in, **please remember to add a .gitignore** and hide `config.json` in it. `config.json` will contain your API keys for Discord! If this is comprimised, others may have access to your bot and how it responds with commands.
 
-**Note from me in the future**
+**Note from me in the future:**
 This is an import from a Gist I made. I figured GitHub would be a better way for people to find this tutorial. Feel free to let me know if I missed anything!
 
 To register your soon-to-be bot with Discord, go to their [developer portal](https://discordapp.com/developers/applications/me) and create a new app. Give it a name at the very least. Click 'Create App.' On the next screen, click 'Create a Bot User.' Note the values `Client ID`, `Client Secret`, and `Token`.
