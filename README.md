@@ -25,4 +25,9 @@ Next, think of a command. For this tutorial, a simple build command will be used
 A switch statement is used because when enough commands have been added, if statements tend to clutter up code. While switch statements make it a bit harder to create commands that require the `includes()` method, I prefer it for aesthetic purposes. A series of if statements may be used if prefered.
 
 ## Coming Soon
+* Understanding the Documentation
 * Embeds
+
+## Helpful Links
+* [The Official Discord.js Website](http://discord.js.org) (Documentation)
+* [Atom](https://atom.io)
