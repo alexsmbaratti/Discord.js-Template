@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+package.json
+
+# System Files
+.DS_Store
+
+# API Keys
+config.json
