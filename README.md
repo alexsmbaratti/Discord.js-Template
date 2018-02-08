@@ -26,6 +26,7 @@ A switch statement is used because when enough commands have been added, if stat
 
 ## Coming Soon
 * Understanding the Documentation
+* Better organization (i.e. Headers and Sections)
 * Embeds
 
 ## Helpful Links
