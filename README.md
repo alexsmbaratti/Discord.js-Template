@@ -24,6 +24,14 @@ Next, think of a command. For this tutorial, a simple build command will be used
 
 A switch statement is used because when enough commands have been added, if statements tend to clutter up code. While switch statements make it a bit harder to create commands that require the `includes()` method, I prefer it for aesthetic purposes. A series of if statements may be used if prefered.
 
+## GuildMembers vs. Users
+The difference between GuildMembers and Users can be confusing at first glance. In short, a GuildMember is tied to a specific guild (fancy term for Discord server) and a user is not tied to anything. The reason they're different is because you may want to get the role of a specific person or their nickname (both of which are Guild specific).
+
+Both objects share values but it's important to know the differences. A GuildMember has a nickname variable but not a username variable and vise versa with User. In addition, the Message variable can return both a GuildMember and a User. `msg.author` returns a user and `msg.member` returns a GuildMember. It can get confusing fast if you're not paying attention.
+
+## Handling a Message
+Every time your bot detects a message, it will go through the block of code headed by `client.on('message', msg => {`. `msg` is the variable you will find yourself using a lot when handling messages. `msg` is a Message object. You can learn about all it has to offer at its [documentation page](https://discord.js.org/#/docs/main/stable/class/Message).
+
 ## Coming Soon
 * Understanding the Documentation
 * Better organization (i.e. Headers and Sections)
