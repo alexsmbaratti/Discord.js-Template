@@ -1,5 +1,7 @@
 # Tutorial for Discord.js (a.k.a. How to Make Your Own Discord Bot)
 
+![alt text](https://img.shields.io/badge/maintenance-active-brightgreen.svg "Maintenance")
+
 **Note:**
 I'm busy as of writing this and this tutorial is not complete. Whatever state this file is in, **please remember to add a .gitignore** and hide `config.json` in it. `config.json` will contain your API keys for Discord! If this is comprimised, others may have access to your bot and how it responds with commands.
 
