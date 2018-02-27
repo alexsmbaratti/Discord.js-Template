@@ -12,7 +12,7 @@ To register your soon-to-be bot with Discord, go to their [developer portal](htt
 
 I recommend creating a bot testing server in Discord to test out your bot without disturbing others. Plus, you'll be guarenteed the permissions needed to add a bot to your server. Add your client ID to the URL `https://discordapp.com/oauth2/authorize?client_id=[CLIENT_ID]&permissions=0&scope=bot` where specified and go to the link. Sign into Discord and add your bot to the server you wish.
 
-If you have a git folder, I recommend making a folder in there and naming it after your project. If you're not using git, make a folder anyway. Put the files on this page in your folder. This will be refered to as the project folder from now on.
+On the programming side, start by forking this repository. Clone your forked repository where you normally clone projects (Typically in a `git` folder). The cloned folder will be refered to as the project folder from now on.
 
 If you have [Atom](https://atom.io), I recommend using that for the project, however if you have another preference, feel free to use it. Open your project folder in Atom and open the `config.json` file. Replace the placeholder text (`YOUR_TOKEN` for example) with their respective values from the developer portal. Token is a mandatory and your program will not run without a valid token. Make sure you do not remove the quotes.
 
