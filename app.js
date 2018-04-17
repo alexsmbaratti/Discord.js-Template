@@ -7,6 +7,7 @@ const build = "0.0.1"; // Change with each update
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.username}!`);
   console.log("Build: " + build);
+  setGame("a game"); // Playing a game
 });
 
 client.on('message', msg => {
